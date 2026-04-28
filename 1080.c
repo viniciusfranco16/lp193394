@@ -1,3 +1,15 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : <<<Vinicius Franco Silva>>>
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1080
+Data        : 28/04/2026
+Objetivo    :
+Aprendizado : <<<ler vários números automaticamente>>>
+-------------------------------------------------------------------------- */
+
+
+
 #include <limits.h>
 #include <stdio.h>
 
