@@ -1,3 +1,13 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : <<<Vinicius Franco Silva>>>
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/2578
+Data        : 28/04/2026
+Objetivo    :
+Aprendizado : <<abalhar com números decimais e controlar como eles aparecem>>
+-------------------------------------------------------------------------- */
+
 #include <stdio.h>
 
 int main()
