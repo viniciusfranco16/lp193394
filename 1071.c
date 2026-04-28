@@ -1,3 +1,13 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : <<Vinicius Franco Silva>>
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1071
+Data        : 28/04/2026
+Objetivo    : Ler dois valores inteiros e mostrar a soma.
+Aprendizado : <<<usar o if, for e else>>>
+-------------------------------------------------------------------------- */
+
 #include <stdio.h>
 
 int main() {
