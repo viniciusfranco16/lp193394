@@ -1,3 +1,14 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : <<<Vinicius Franco Silva>>>
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1013
+Data        : 28/04/2026
+Objetivo    : Mostrar o maior numero.
+Aprendizado : <<Aprendi a mostrar o maior entre dois numeros, fazendo uma comparacao com o codigo>>
+-------------------------------------------------------------------------- */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
