@@ -8,7 +8,19 @@ Objetivo    :
 Aprendizado : <<aprender a fazer uma progressão geometrica atraves da programação>>
 -------------------------------------------------------------------------- */
 
+
 #include <stdio.h>
+
+unsigned long long calcularGraos(int casas, unsigned long long graosAtual) {
+
+    // Caso base
+    if (casas == 0) {
+        return 0;
+    }
+
+    // Soma os grãos atuais + chamada recursiva
+    return graosAtual + calcularGraos(casas - 1, graosAtual * 2);
+}
 
 int main() {
 
@@ -21,15 +33,7 @@ int main() {
 
         scanf("%d", &casas);
 
-        unsigned long long graos = 1;
-        unsigned long long total = 0;
-
-        for (int i = 1; i <= casas; i++) {
-
-            total += graos;
-
-            graos = graos * 2;
-        }
+        unsigned long long total = calcularGraos(casas, 1);
 
         printf("%llu kg\n", total / 12000);
 
@@ -38,4 +42,3 @@ int main() {
 
     return 0;
 }
-
