@@ -1,3 +1,13 @@
+/*
+-------------------------------------------------------
+Nome: Vinicius Franco Silva
+Data: 23/06/2026
+
+1383.c
+Verificador de Sudoku - Beecrowd 1383
+-------------------------------------------------------
+*/
+
 #include <stdio.h>
 
 int sudoku[9][9];
