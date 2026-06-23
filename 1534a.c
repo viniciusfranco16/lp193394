@@ -1,3 +1,13 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Vinicius Franco Silva
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1534
+Data        : 23/06/2026
+Objetivo    : Gerar e imprimir uma matriz onde os elementos seguem um padrão simétrico, com valores preenchidos em ordem decrescente e crescente.
+Aprendizado : Uso de matrizes, laços aninhados e construção de padrões bidimensionais.
+-------------------------------------------------------------------------- */
+
 #include <stdio.h>
  
 #define MAXN 70
