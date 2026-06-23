@@ -1,3 +1,13 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Vinicius Franco Silva
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1179
+Data        : 23/06/2026
+Objetivo    : Ler 15 valores inteiros e separá-los em pares e ímpares, exibindo-os em blocos de até 5 elementos.
+Aprendizado : Uso de vetores, controle de fluxo e organização de saída formatada.
+-------------------------------------------------------------------------- */
+
 #include <stdlib.h>
 #include <stdio.h>
 
