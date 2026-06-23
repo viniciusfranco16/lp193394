@@ -12,12 +12,12 @@ Aprendizado : Utilização de operações aritméticas, leitura de dados de entr
 #include <stdio.h>
 
 int main(){
-    int tempo, velocidade;
+    int temp, velo;
     double distancia, litros;
 
-    scanf("%d\n%d", &tempo, &velocidade);
+    scanf("%d\n%d", &temp, &velo);
 
-    distancia = velocidade * tempo;
+    distancia = velo * temp;
     litros = distancia/12.0;
 
     printf("%.3lf\n", litros);
