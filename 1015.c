@@ -13,13 +13,13 @@ Aprendizado : Aplicação da fórmula da distância entre dois pontos, utilizaç
 #include <math.h>
 
 int main(){
-    double x1, y1, x2, y2, distancia;
+    double x1, y1, x2, y2, distan;
 
     scanf("%lf %lf\n%lf %lf", &x1, &y1, &x2, &y2);
 
-    distancia = sqrt((x2 - x1)*(x2 - x1) + (y2 - y1)*(y2 - y1));
+    distan = sqrt((x2 - x1)*(x2 - x1) + (y2 - y1)*(y2 - y1));
 
-    printf("%.4lf\n", distancia);
+    printf("%.4lf\n", distan);
 
     return 0;
 }
